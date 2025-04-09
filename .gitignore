@@ -169,3 +169,18 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+.tmp*
+# Ignore database files
+*.db
+
+# Ignore completion files
+*.complete
+
+# Ignore error logs
+*.err
+
+# Ignore output logs
+*.out
+
+# Ignore result storage directory
+result*
