@@ -1,7 +1,7 @@
 from dagster import op, job, RunRequest
 import requests
 from datetime import datetime
-from dagster.core.launcher import DefaultRunLauncher
+from dagster import DefaultRunLauncher
 
 @op
 def fetch_crypto_prices(context):
